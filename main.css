@@ -1,0 +1,47 @@
+ul.hr {
+    margin: 0; /* Обнуляем значение отступов */
+    padding: 5px; /* Значение полей */
+   }
+   ul.hr li {
+    display: inline  ; /* Отображать как строчный элемент */
+    padding: 15px; /* Поля вокруг текста */
+   }
+   tr.days  {
+    background: #fc0; /* Цвет фона */
+    margin-left: 1em; /* Отступ слева */
+    
+   }
+   tr.lessons {
+    background: #fc0; /* Цвет фона */
+    margin-left: 1em; /* Отступ слева */
+    
+   }
+   tr.days td {
+    padding: 10px 30px; /* Поля вокруг текста */
+    border: 1px solid black; /* Параметры рамки */
+    align-content: center space-around center center ;
+    font-weight: bold ;
+    font-size: large;
+    height: 50;
+    background: lawngreen;
+   }
+td.holiday  {
+    font-size: large;
+    font-weight: bold;
+    font-style: italic;
+    
+    
+}
+
+td.numbered li {
+    display: list-item;
+    list-style-type: decimal;
+    list-style-position: inside ;
+    text-align: left;
+}
+tr.lessons {
+    font-weight: bold ;
+    text-align: center ;
+   
+}
+ 
